@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="포트폴리오" />
+    <script src="https://kit.fontawesome.com/fdea6ac0a7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>안녕하세요</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <a href="/">MNMH</a>
+      </div>
+      <ul class="navbar__menu">
+        <li data-link="#home">Home</li>
+        <li data-link="#profile">Profile</li>
+        <li data-link="#project">Project</li>
+        <li data-link="#contact">Contact</li>
+      </ul>
+      <button class="navbar__btn" type="button"><i class="fas fa-bars"></i></button>
+    </nav>
+    <section id="home">
+      <div class="homecontainer">
+        <div class="info">
+          <div class="home__info">
+            <h1>안녕하세요. <br />프론트엔드 개발자를 <br />꿈꾸는 백민희입니다.</h1>
+            <button type="button" class="contactme">Contact Me!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="profile">
+      <div class="homecontainer">
+        <h1>Profile</h1>
+        <img class="profile__img" src="./img/my.jpg" alt="myprofile" />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde maxime, similique a
+          corrupti ratione autem magnam rerum magni ipsum aspernatur excepturi quam deleniti aperiam
+          inventore cumque provident beatae blanditiis veniam dicta laudantium recusandae? Amet
+          corporis quis quae molestias! Eveniet reiciendis aperiam repudiandae quam soluta
+          temporibus quidem laboriosam distinctio sint consequatur?
+        </p>
+        <div class="profile__skills">
+          <h1>Skills</h1>
+          <ul class="skills">
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="html" />
+              <p>HTML5</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/css3.png" alt="css" />
+              <p>CSS5</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript" />
+              <p>JavaScript(ES6)</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/ultraviolet/40/000000/react.png" alt="react" />
+              <p>React</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/redux.png" alt="redux" />
+              <p>Redux</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="typescript" />
+              <p>TypeScript</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="./img/styledcomponents.png" alt="styled-components" />
+              <p>Styled-components</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/git.png" alt="git" />
+              <p>Git</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="./img//webpack.png" alt="webpack" />
+              <p>Webpack</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="./img/babel.png" alt="babel" />
+              <p>Babel</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="node.js" />
+              <p>Node.js</p>
+            </li>
+            <li class="skiils__icons">
+              <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
+              <p>MongoDB</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="project">
+      <div class="container">
+        <h1>Projects</h1>
+        <ul class="project__list">
+          <li>
+            <a
+              href="https://github.com/mnmhbbb/to-do-list#readme"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="list"
+            >
+              <img class="list__img" src="./img/todolist.png" alt="to-do-list" />
+              <div class="list__description">
+                <h3>할 일 목록 관리 앱</h3>
+                <p>JavaScript로 만든 투두리스트</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/mnmhbbb/to-do-list-react#readme"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="list"
+            >
+              <img class="list__img" src="./img/todolist-react.png" alt="to-do-list-react" />
+              <div class="list__description">
+                <h3>할 일 목록 관리 앱</h3>
+                <p>React를 배우면서 만든 투두리스트</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/mnmhbbb/daily#readme"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="list"
+            >
+              <img class="list__img" src="./img/daily.png" alt="daily-notes" />
+              <div class="list__description">
+                <h3>daily</h3>
+                <p>공부한 내용을 정리한 저장소</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/mnmhbbb/book-search#readme"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="list"
+            >
+              <img class="list__img" src="./img/booksearch.png" alt="book-search" />
+              <div class="list__description">
+                <h3>책 검색 사이트</h3>
+                <p>네이버 검색 API를 사용한 검색 사이트</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/mnmhbbb/miniproject#readmee"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="list"
+            >
+              <img class="list__img" src="./img/minilnad.png" alt="miniland" />
+              <div class="list__description">
+                <h3>미니랜드</h3>
+                <p>서버사이드렌더링을 공부하며 Next.js로 만든 작은 커뮤니티 사이트</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/mnmhbbb/mern-shop"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="list"
+            >
+              <img class="list__img" src="./img/usedshop.png" alt="usedshop" />
+              <div class="list__description">
+                <h3>중고 마켓</h3>
+                <p>MERN 스택을 공부하면서 진행 중인 사이트</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <div class="contact__email">
+          <a href="mailto:mnmhb64@gmail.com"><h3>mnmhb64@gmail.com</h3></a>
+        </div>
+        <div class="contact__icons">
+          <div>
+            <a href="https://github.com/mnmhbbb" target="_blank" rel="noreferrer noopener">
+              <img src="https://img.icons8.com/material-sharp/48/000000/github.png" alt="github" />
+            </a>
+          </div>
+          <div>
+            <a href="tel:010-3251-5808">
+              <img
+                src="https://img.icons8.com/fluent-systems-filled/48/000000/phone-message.png"
+                alt="phone"
+              />
+            </a>
+          </div>
+        </div>
+        <h2>감사합니다.</h2>
+      </div>
+    </section>
+    <footer>
+      <p>ⓒ 2021 백민희 all rights reserved.</p>
+    </footer>
+    <script src="./main.js" />
+  </body>
+</html>
