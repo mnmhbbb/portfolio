@@ -378,12 +378,16 @@ footer {
   }
 
   .home__info button {
-    width: 120px;
+    width: 150px;
     height: 60px;
-    border-radius: 60px;
+    border-radius: 75px;
   }
 
   #project {
-    padding: 1rem;
+    padding: 2rem;
+  }
+
+  .project__list {
+    margin-bottom: 2rem;
   }
 }
