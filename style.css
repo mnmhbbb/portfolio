@@ -38,6 +38,7 @@ button {
   border: none;
   background-color: transparent;
   padding: 0;
+  font-size: 1rem;
 }
 
 button:focus {
@@ -93,16 +94,12 @@ p {
 }
 
 #navbar.navbarFixed {
-  background-color: #71a1ac;
+  background-color: #9eb5a8;
 }
 
 .navbar__menu {
   display: flex;
 }
-
-/* .navbar__menu.open {
-  display: block;
-} */
 
 .navbar__logo a {
   color: #ffffff;
@@ -174,9 +171,9 @@ p {
 .home__info button {
   margin: 2rem auto;
   font-size: var(--font-small);
+  background-color: #9eb5a8;
   width: 150px;
   height: 70px;
-  background-color: #9eb5a8;
   border-radius: 75px;
   font-weight: 700;
   transition: var(--transition-ani);
@@ -378,6 +375,12 @@ footer {
     font-size: var(--font-medium);
     text-align: center;
     margin-top: 2rem;
+  }
+
+  .home__info button {
+    width: 120px;
+    height: 60px;
+    border-radius: 60px;
   }
 
   #project {
