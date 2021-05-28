@@ -139,10 +139,6 @@ p {
   background-position: center;
   padding: 2rem;
   height: 700px;
-  /* padding: 4rem; */
-  /* background-color: #9eb5b3; */
-  /* background-color: #ffffff; */
-  /* background: #60564d; */
   background-color: #ffffff;
   display: flex;
   justify-content: center;
@@ -203,6 +199,31 @@ p {
   margin-bottom: 1rem;
 }
 
+.profile__resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 40px;
+  width: 200px;
+}
+
+.profile__resume > p {
+  margin-right: 10px;
+  padding-bottom: 6px;
+}
+
+.profile__resume > a > img {
+  color: #fff;
+  transition: var(--transition-ani);
+}
+
+.profile__resume > a :hover {
+  transform: translateY(-6px);
+}
+
 .profile__skills {
   margin-top: 4rem;
   /* padding: 1rem; */
@@ -233,11 +254,6 @@ p {
 }
 
 #project {
-  /* background-color: #ffffff; */
-  /* background-color: #ccb4a0; */
-  /* background-color: #9f7f65; */
-  /* background-color: #60564d; */
-  /* background-color: #9ea6a2; */
   background-color: #398e8d;
   padding: 4rem;
   color: #ffffff;
@@ -288,8 +304,6 @@ p {
 
 #contact {
   padding: 2rem;
-  /* background-color: #7a8b81; */
-  /* background: #9f7f65; */
   background-color: #ffffff;
 }
 
